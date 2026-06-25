@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sabor Carioca | Almoço e Marmitex Premium em Laranjal - MG. Descubra o verdadeiro sabor caseiro com o tempero do Rio e o capricho de Minas.">
+    <meta name="keywords" content="restaurante em Laranjal MG, marmitex laranjal mg, almoço laranjal, comida caseira laranjal, sabor carioca laranjal">
+    <meta name="author" content="Sabor Carioca">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://saborcariocaranjal.com.br/">
+    <meta property="og:title" content="Sabor Carioca">
+    <meta property="og:description" content="O autêntico sabor caseiro com o tempero do Rio e a fartura de Minas.">
+    <meta property="og:image" content="Imagens/restaurantesaborcariocamg_520874511_17896140126254838_1936567384517833618_n.webp">
+
+    <!-- Favicon & PWA -->
+    <link rel="icon" type="image/png" href="Imagens/LOGO.jpg">
+    <link rel="apple-touch-icon" href="Imagens/restaurantesaborcariocamg_519152984_17896140108254838_8899478099880964795_n.webp">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#7C0B07">
+
+    <title>Sabor Carioca | Almoço Caseiro & Marmitex Premium em Laranjal - MG</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Skip to Content Link -->
+    <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#inicio" class="logo" aria-label="Sabor Carioca - Voltar para o início">
+                <span class="logo-sabor">Sabor</span>
+                <span class="logo-carioca">Carioca</span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu" aria-label="Navegação Principal">
+                <ul>
+                    <li><a href="#inicio" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre Nós</a></li>
+                    <li><a href="#cardapio" class="nav-link">Cardápio</a></li>
+                    <li><a href="#galeria" class="nav-link">Fotos</a></li>
+                    <li><a href="#avaliacoes" class="nav-link">Depoimentos</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="https://wa.me/553284234375?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20de%20almo%C3%A7o%20de%20hoje." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-header" aria-label="Pedir almoço pelo WhatsApp (Abre em nova janela)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                    <span>Pedir Online</span>
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu de Navegação" aria-expanded="false" aria-controls="navMenu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="conteudo-principal">
+
+        <!-- Hero Section (Clean, Soft & Friendly 2-Column Layout) -->
+        <section id="inicio" class="hero-section">
+            <div class="container grid-two-cols hero-grid-wrapper">
+                <div class="hero-content animate-fade-up">
+                    <div class="hero-badge" role="presentation">
+                        <!-- Copacabana Wave Icon -->
+                        <svg class="copacabana-mini-wave" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20" aria-hidden="true">
+                            <path d="M2 12c4 4 6-4 10 0s6-4 10 0" stroke-linecap="round"/>
+                        </svg>
+                        O sabor do Rio com o aconchego de Minas
+                    </div>
+                    <h1 class="hero-title">O verdadeiro almoço caseiro feito com amor.</h1>
+                    <p class="hero-subtitle">Comida fresca, tempero natural e a fartura que sua família merece. A mesma qualidade premium servida no restaurante ou embalada quentinha no seu marmitex.</p>
+                    <div class="hero-buttons">
+                        <a href="#cardapio" class="btn btn-accent btn-large">
+                            <span>Ver Cardápio do Dia</span>
+                        </a>
+                        <a href="https://wa.me/553284234375?text=Ol%C3%A1!%20Quero%20fazer%20um%20pedido%20de%20marmitex." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-large" aria-label="Fazer pedido no WhatsApp (Abre em nova janela)">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                            <span>Fazer Pedido por WhatsApp</span>
+                        </a>
+                    </div>
+                    <div class="hero-info-row">
+                        <span class="info-tag"><span class="sr-only">Funcionamento: </span>🕒 Seg a Sáb: 11h às 14h30</span>
+                        <span class="info-tag"><span class="sr-only">Endereço: </span>📍 Rua Norberto Berno, 98 - Laranjal</span>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-container">
+                        <img src="Imagens/restaurantesaborcariocamg_527527891_17898177981254838_8077177265146286544_n.webp" alt="Marmitex montado com arroz, feijão especial e frango grelhado do Sabor Carioca" class="hero-img-display">
+                        <div class="hero-image-badge" role="presentation">
+                            <span class="img-badge-title">Grelhados na Chapa</span>
+                            <span class="img-badge-desc">Em Laranjal, MG</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copacabana SVG Wave at the bottom of Hero -->
+            <div class="copacabana-wave-divider" aria-hidden="true">
+                <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+                    <path d="M0,30 C150,75 250,5 400,30 C550,55 650,5 800,30 C950,55 1050,5 1200,30 L1200,60 L0,60 Z" fill="#FAF6F0"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- About Section (Premium Light Style) -->
+        <section id="sobre" class="about-section section-padding bg-light">
+            <div class="container grid-two-cols">
+                <div class="about-image-wrapper reveal-left">
+                    <div class="about-image-container">
+                        <img src="Imagens/restaurantesaborcariocamg_520874511_17896140126254838_1936567384517833618_n.webp" alt="Prato gourmet de contra filé servido no restaurante Sabor Carioca" class="about-img" loading="lazy">
+                        
+                        <!-- Rio de Janeiro SVG skyline decoration overlay -->
+                        <div class="rio-skyline-badge" role="presentation">
+                            <svg viewBox="0 0 100 35" fill="none" stroke="#FFA328" stroke-width="1.5" aria-hidden="true">
+                                <path d="M5 25 Q 15 5 25 18 T 50 18 Q 58 7 66 25" stroke-linecap="round"/>
+                                <path d="M80 25 L82 12 L84 12 M76 13 L88 13 M82 11 L83 11 L82.5 10 Z" stroke-linecap="round"/>
+                            </svg>
+                            <span>Alma Carioca</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content reveal-right">
+                    <span class="section-subtitle">Nossa Alma</span>
+                    <h2 class="section-title">O tempero do Rio de Janeiro com o aconchego de Minas</h2>
+                    
+                    <p class="about-text text-highlight">Aqui não há divisão: o mesmo prato farto e delicioso servido na nossa mesa vai embalado no seu marmitex térmico!</p>
+                    
+                    <p class="about-text">O Sabor Carioca une a alegria e a bossa do Rio de Janeiro à tradicional hospitalidade mineira. Nossas panelas carregam tempero de verdade: alho fresco batido, cebola dourada e cheiro-verde fresco picado na hora. Tudo é preparado de forma artesanal, livre de conservantes, para garantir o verdadeiro sabor da comida brasileira.</p>
+                    
+                    <div class="about-features-panel">
+                        <div class="about-feature-box reveal-right">
+                            <div class="feat-icon-container" aria-hidden="true">
+                                <svg class="feat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
+                                </svg>
+                            </div>
+                            <div class="feat-info">
+                                <h3 class="feat-title">Grelhados na Chapa</h3>
+                                <p class="feat-desc">Carnes preparadas na hora, suculentas e com o ponto ideal.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature-box reveal-right">
+                            <div class="feat-icon-container" aria-hidden="true">
+                                <svg class="feat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 2 8a9 9 0 0 1-10 10z"/>
+                                    <path d="M19 2L9.8 11.2"/>
+                                </svg>
+                            </div>
+                            <div class="feat-info">
+                                <h3 class="feat-title">Tempero 100% Natural</h3>
+                                <p class="feat-desc">Apenas ingredientes frescos e condimentos naturais da horta.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature-box reveal-right">
+                            <div class="feat-icon-container" aria-hidden="true">
+                                <svg class="feat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                                    <line x1="12" y1="22.08" x2="12" y2="12"/>
+                                </svg>
+                            </div>
+                            <div class="feat-info">
+                                <h3 class="feat-title">Marmitex Selado</h3>
+                                <p class="feat-desc">Embalagem especial perfeitamente vedada que mantém o calor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section (Unified Outback Steakhouse Style) -->
+        <section id="cardapio" class="menu-section section-padding">
+            <!-- Copacabana repeating wave background pattern -->
+            <div class="copacabana-background-pattern" aria-hidden="true"></div>
+            
+            <div class="container text-center-header">
+                <span class="section-subtitle text-center">Nosso Cardápio</span>
+                <h2 class="section-title text-center">Nossos Pratos e Marmitex</h2>
+                <p class="section-description text-center">Todos os pratos acompanham arroz soltinho, feijão especial carioca ou preto, farofa crocante e salada fresca. O mesmo capricho no salão ou no marmitex.</p>
+            </div>
+
+            <div class="container relative-z">
+                
+                <!-- Category 1: Os Favoritos Assinados (Signatures) -->
+                <div class="menu-category-block reveal">
+                    <h3 class="category-title">
+                        <svg class="category-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="12" cy="8" r="7"/>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+                        </svg>
+                        <span>Os Favoritos da Casa</span>
+                    </h3>
+                    <div class="menu-grid">
+                        <!-- Contra Filé com Fritas -->
+                        <article class="menu-item-card featured-card">
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Contra Filé com Fritas</h4>
+                                    <span class="menu-item-price" aria-label="Vinte e quatro reais">R$ 24,00</span>
+                                </div>
+                                <p class="menu-item-description">Contra filé premium selecionado grelhado na chapa, servido com porção generosa de batatas fritas douradas.</p>
+                                <span class="menu-item-tag">O Mais Pedido</span>
+                            </div>
+                        </article>
+
+                        <!-- Feijoada Especial Carioca -->
+                        <article class="menu-item-card featured-card">
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Feijoada Carioca</h4>
+                                    <span class="menu-item-price" aria-label="Vinte e dois reais">R$ 22,00</span>
+                                </div>
+                                <p class="menu-item-description">Feijão preto cozido lentamente com carnes nobres selecionadas, servido com couve refogada no alho e farofa.</p>
+                                <span class="menu-item-tag">Alma do Rio</span>
+                            </div>
+                        </article>
+
+                        <!-- Filé de Tilápia Frito -->
+                        <article class="menu-item-card featured-card">
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Filé de Tilápia Frito</h4>
+                                    <span class="menu-item-price" aria-label="Vinte reais">R$ 20,00</span>
+                                </div>
+                                <p class="menu-item-description">Filé de tilápia empanado crocante por fora e muito macio por dentro, servido com fatias de limão fresco.</p>
+                                <span class="menu-item-tag">Especialidade</span>
+                            </div>
+                        </article>
+
+                        <!-- Costelinha Suína Suculenta -->
+                        <article class="menu-item-card featured-card">
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Costelinha Suína Suculenta</h4>
+                                    <span class="menu-item-price" aria-label="Dezessete reais">R$ 17,00</span>
+                                </div>
+                                <p class="menu-item-description">Costelinha de porco dourada na chapa e temperada com limão, ervas finas e aquele toque caseiro mineiro.</p>
+                                <span class="menu-item-tag">Sucesso Local</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Category 2: Clássicos do Dia a Dia -->
+                <div class="menu-category-block reveal">
+                    <h3 class="category-title">
+                        <svg class="category-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M3 12h18c0 4.97-4.03 9-9 9s-9-4.03-9-9z"/>
+                            <path d="M12 2v6"/>
+                            <path d="M8 4v6"/>
+                            <path d="M16 4v6"/>
+                        </svg>
+                        <span>Clássicos do Dia a Dia</span>
+                    </h3>
+                    <div class="menu-grid">
+                        <!-- Estrogonofe de Frango -->
+                        <article class="menu-item-card">
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Estrogonofe de Frango</h4>
+                                    <span class="menu-item-price" aria-label="Dezessete reais">R$ 17,00</span>
+                                </div>
+                                <p class="menu-item-description">Peito de frango em cubos em molho super cremoso de tomate, creme de leite fresco e batata palha.</p>
+                            </div>
+                        </article>
+
+                        <!-- Filé de Frango a Milanesa -->
+                        <article class="menu-item-card">
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Filé de Frango à Milanesa</h4>
+                                    <span class="menu-item-price" aria-label="Dezessete reais">R$ 17,00</span>
+                                </div>
+                                <p class="menu-item-description">Filé de peito de frango empanado e frito até dourar por completo. Casquinha super crocante e sequinha.</p>
+                            </div>
+                        </article>
+
+                        <!-- Pernil ao Molho de Laranja -->
+                        <article class="menu-item-card">
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Pernil ao Molho de Laranja</h4>
+                                    <span class="menu-item-price" aria-label="Dezessete reais">R$ 17,00</span>
+                                </div>
+                                <p class="menu-item-description">Carne suína de pernil assada e banhada em molho cítrico de laranja com temperos aromáticos.</p>
+                            </div>
+                        </article>
+
+                        <!-- Linguíça de Calabresa Frita com Couve -->
+                        <article class="menu-item-card">
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Linguiça Calabresa com Couve</h4>
+                                    <span class="menu-item-price" aria-label="Dezessete reais">R$ 17,00</span>
+                                </div>
+                                <p class="menu-item-description">Linguiça calabresa fatiada acebolada grelhada na chapa acompanhada de couve refogada no alho.</p>
+                            </div>
+                        </article>
+
+                        <!-- Carne de Panela com Linguiça -->
+                        <article class="menu-item-card">
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Carne de Panela com Linguiça</h4>
+                                    <span class="menu-item-price" aria-label="Dezessete reais">R$ 17,00</span>
+                                </div>
+                                <p class="menu-item-description">Carne bovina cozida lentamente no molho escuro rico junto com linguiça defumada suculenta.</p>
+                            </div>
+                        </article>
+
+                        <!-- Carne Cozida com Batata -->
+                        <article class="menu-item-card">
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Carne Cozida com Batata</h4>
+                                    <span class="menu-item-price" aria-label="Dezessete reais">R$ 17,00</span>
+                                </div>
+                                <p class="menu-item-description">Carne de boi cozida lentamente em fogo brando com batatas macias que derretem na boca.</p>
+                            </div>
+                        </article>
+
+                        <!-- Isca de Pernil ao Molho -->
+                        <article class="menu-item-card">
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Isca de Pernil ao Molho</h4>
+                                    <span class="menu-item-price" aria-label="Dezessete reais">R$ 17,00</span>
+                                </div>
+                                <p class="menu-item-description">Tiras de pernil suíno salteadas com cebola, pimentão e molho de tomate fresco artesanal.</p>
+                            </div>
+                        </article>
+
+                        <!-- Carne Corada -->
+                        <article class="menu-item-card">
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Carne Corada</h4>
+                                    <span class="menu-item-price" aria-label="Dezessete reais">R$ 17,00</span>
+                                </div>
+                                <p class="menu-item-description">Carne bovina dourada lentamente e cozida com temperos típicos e cor natural de urucum.</p>
+                            </div>
+                        </article>
+
+                        <!-- Coxa e Sobrecoxa ao Molho -->
+                        <article class="menu-item-card">
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Coxa e Sobrecoxa ao Molho</h4>
+                                    <span class="menu-item-price" aria-label="Dezessete reais">R$ 17,00</span>
+                                </div>
+                                <p class="menu-item-description">Frango de granja cozido ao molho de tomate temperado, macio e desfiando do osso.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Menu CTA -->
+                <div class="menu-cta-container">
+                    <p class="menu-cta-text">Temos também guarnições extras, sucos naturais de fruta e pudim caseiro para sobremesa.</p>
+                    <a href="https://wa.me/553284234375?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20de%20almo%C3%A7o%20hoje." target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-large" aria-label="Fazer pedido de refeição pelo WhatsApp (Abre em nova janela)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                        <span>Pedir Agora no WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Copacabana Transition Wave -->
+        <div class="copacabana-transition-wave" aria-hidden="true">
+            <svg viewBox="0 0 1200 40" preserveAspectRatio="none">
+                <path d="M0,20 C150,0 250,40 400,20 C550,0 650,40 800,20 C950,0 1050,40 1200,20 L1200,40 L0,40 Z" fill="#FAF6F0"></path>
+            </svg>
+        </div>
+
+        <!-- Gallery Section -->
+        <section id="galeria" class="gallery-section section-padding bg-light">
+            <div class="container text-center-header">
+                <span class="section-subtitle text-center">Nossos Pratos</span>
+                <h2 class="section-title text-center">Fotos Reais da Cozinha</h2>
+                <p class="section-description text-center">O apetite visual que comprova a nossa dedicação diária à qualidade.</p>
+            </div>
+
+            <div class="container">
+                <div class="gallery-grid reveal" role="region" aria-label="Galeria de fotos de pratos">
+                    <!-- Gallery Item 1 -->
+                    <button class="gallery-item" onclick="openLightbox(0)" aria-label="Ampliar foto do prato comercial carioca">
+                        <img src="Imagens/restaurantesaborcariocamg_519152984_17896140108254838_8899478099880964795_n.webp" alt="Prato comercial Carioca servido com arroz, feijão, fritas e bife grelhado" class="gallery-img" loading="lazy">
+                        <span class="gallery-hover" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                        </span>
+                    </button>
+                    <!-- Gallery Item 2 -->
+                    <button class="gallery-item" onclick="openLightbox(1)" aria-label="Ampliar foto do contra filé acebolado">
+                        <img src="Imagens/restaurantesaborcariocamg_520874511_17896140126254838_1936567384517833618_n.webp" alt="Contra filé suculento acebolado grelhado na chapa do restaurante Sabor Carioca" class="gallery-img" loading="lazy">
+                        <span class="gallery-hover" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                        </span>
+                    </button>
+                    <!-- Gallery Item 3 -->
+                    <button class="gallery-item" onclick="openLightbox(2)" aria-label="Ampliar foto do marmitex Gourmet">
+                        <img src="Imagens/restaurantesaborcariocamg_527527891_17898177981254838_8077177265146286544_n.webp" alt="Marmitex montado com arroz soltinho, feijão especial e frango grelhado por cima" class="gallery-img" loading="lazy">
+                        <span class="gallery-hover" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="avaliacoes" class="reviews-section section-padding">
+            <div class="container text-center-header">
+                <span class="section-subtitle text-center">Quem Comprova</span>
+                <h2 class="section-title text-center">Depoimentos dos Clientes</h2>
+            </div>
+
+            <div class="container">
+                <div class="reviews-slider-container reveal">
+                    <div class="reviews-wrapper" id="reviewsWrapper">
+                        <!-- Review 1 -->
+                        <div class="review-card">
+                            <div class="stars" aria-label="Avaliação 5 estrelas">★★★★★</div>
+                            <p class="review-comment">"Comida maravilhosa, tempero excelente e atendimento nota 10! A marmitex vem super quentinha, bem embalada e com uma quantidade excelente. A gente sente o sabor de comida caseira de verdade."</p>
+                            <h4 class="reviewer-name">Juliana Souza</h4>
+                            <span class="reviewer-location">Laranjal, MG</span>
+                        </div>
+                        <!-- Review 2 -->
+                        <div class="review-card">
+                            <div class="stars" aria-label="Avaliação 5 estrelas">★★★★★</div>
+                            <p class="review-comment">"Parada obrigatória na região! Viajo constantemente pela BR-116 e sempre programo minha parada para almoçar no Sabor Carioca. Contra-filé com fritas perfeito e atendimento simpático."</p>
+                            <h4 class="reviewer-name">Roberto Oliveira</h4>
+                            <span class="reviewer-location">Viajante / Muriaé - MG</span>
+                        </div>
+                        <!-- Review 3 -->
+                        <div class="review-card">
+                            <div class="stars" aria-label="Avaliação 5 estrelas">★★★★★</div>
+                            <p class="review-comment">"O melhor feijão e a melhor costelinha suína da cidade! Compro marmitex quase diariamente para a equipe da minha empresa. Chega sempre rápido, quentinho e com qualidade constante."</p>
+                            <h4 class="reviewer-name">Marcos Almeida</h4>
+                            <span class="reviewer-location">Empresário Local</span>
+                        </div>
+                    </div>
+                    
+                    <div class="slider-controls" aria-label="Controles dos depoimentos">
+                        <button class="slider-dot active" aria-label="Ver depoimento 1 de 3" onclick="currentSlide(0)"></button>
+                        <button class="slider-dot" aria-label="Ver depoimento 2 de 3" onclick="currentSlide(1)"></button>
+                        <button class="slider-dot" aria-label="Ver depoimento 3 de 3" onclick="currentSlide(2)"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Location Section -->
+        <section id="contato" class="contact-section section-padding bg-light">
+            <div class="container grid-two-cols">
+                <div class="contact-info-panel reveal-left">
+                    <span class="section-subtitle">Onde Estamos</span>
+                    <h2 class="section-title">Parada obrigatória em Laranjal, MG</h2>
+                    <p class="contact-intro">Nosso salão é aconchegante, climatizado e estruturado para te receber com a verdadeira hospitalidade brasileira.</p>
+                    
+                    <div class="contact-details-list">
+                        <!-- Address -->
+                        <div class="contact-detail-item">
+                            <div class="contact-icon-container" aria-hidden="true">
+                                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="contact-detail-title">Nosso Endereço</h4>
+                                <p class="contact-detail-text">Rua Norberto Berno, 98 - Centro<br>Laranjal - MG, CEP 36760-000</p>
+                            </div>
+                        </div>
+                        <!-- Opening Hours -->
+                        <div class="contact-detail-item">
+                            <div class="contact-icon-container" aria-hidden="true">
+                                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="contact-detail-title">Horário de Atendimento</h4>
+                                <p class="contact-detail-text">Segunda a Sábado: 11:00 às 14:30</p>
+                            </div>
+                        </div>
+                        <!-- Phones -->
+                        <div class="contact-detail-item">
+                            <div class="contact-icon-container" aria-hidden="true">
+                                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="contact-detail-title">Pedidos no WhatsApp</h4>
+                                <p class="contact-detail-text"><a href="https://wa.me/553284234375" class="contact-link" aria-label="Ligar ou enviar mensagem no WhatsApp">+55 (32) 8423-4375</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links-panel">
+                        <a href="https://www.instagram.com/restaurantesaborcariocamg/" target="_blank" rel="noopener noreferrer" class="social-icon-btn btn-instagram" aria-label="Siga-nos no Instagram (Abre em nova janela)">
+                            <span>Siga @restaurantesaborcariocamg</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-map-wrapper reveal-right">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.4716172605335!2d-42.455246724732644!3d-21.206413680491873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbb358c2134598d%3A0xe543e390977a46ab!2sR.%20Norberto%20Berno%2C%2098%2C%20Laranjal%20-%20MG%2C%2036760-000!5e0!3m2!1spt-BR!2sbr!4v1719290000000!5m2!1spt-BR!2sbr" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade" 
+                        title="Mapa do Google mostrando a localização do restaurante Sabor Carioca em Laranjal MG">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer" role="contentinfo">
+        <div class="container footer-grid">
+            <div class="footer-col-about">
+                <a href="#inicio" class="logo" aria-label="Sabor Carioca - Voltar para o início">
+                    <span class="logo-sabor">Sabor</span>
+                    <span class="logo-carioca">Carioca</span>
+                </a>
+                <p class="footer-about-text">O tempero do Rio com a fartura de Minas Gerais no centro de Laranjal. O mesmo prato na mesa ou na marmita.</p>
+                
+                <!-- Small Copacabana Wave in Footer -->
+                <svg class="copacabana-footer-wave" viewBox="0 0 100 10" fill="none" stroke="rgba(255,163,40,0.4)" stroke-width="2" width="100" aria-hidden="true">
+                    <path d="M0 5c15 10 25-10 40 0s25-10 40 0h20"/>
+                </svg>
+            </div>
+            <div class="footer-col-links">
+                <h4 class="footer-col-title">Navegação</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#galeria">Fotos</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-contact">
+                <h4 class="footer-col-title">Pedidos e Contato</h4>
+                <p class="footer-contact-item"><strong>WhatsApp:</strong> (32) 8423-4375</p>
+                <p class="footer-contact-item">Rua Norberto Berno, 98 - Laranjal - MG</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>&copy; 2026 Sabor Carioca. Comida caseira feita com carinho mineiro.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Lightbox for Gallery -->
+    <div class="lightbox" id="imageLightbox" role="dialog" aria-modal="true" aria-label="Visualização ampliada da imagem" tabIndex="-1">
+        <button class="lightbox-close" onclick="closeImageLightbox()" aria-label="Fechar visualização ampliada">&times;</button>
+        <div class="lightbox-content">
+            <img src="" alt="Imagem ampliada" class="lightbox-img" id="lightboxImg">
+            <span class="lightbox-caption" id="lightboxCaption"></span>
+        </div>
+    </div>
+
+    <!-- Sticky WhatsApp Button -->
+    <a href="https://wa.me/553284234375?text=Ol%C3%A1!%20Vi%20o%20site%20e%20gostaria%20de%20fazer%20um%20pedido%20de%20almo%C3%A7o." target="_blank" rel="noopener noreferrer" class="whatsapp-sticky" aria-label="Pedir almoço pelo WhatsApp (Abre em nova janela)" role="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        <span class="whatsapp-tooltip" aria-hidden="true">Pedir Marmitex Quentinho!</span>
+    </a>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+</html>

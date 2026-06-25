@@ -1,0 +1,21 @@
+{
+  "short_name": "Sabor Carioca",
+  "name": "Sabor Carioca | Restaurante & Marmitex em Laranjal - MG",
+  "icons": [
+    {
+      "src": "Imagens/restaurantesaborcariocamg_519152984_17896140108254838_8899478099880964795_n.webp",
+      "type": "image/webp",
+      "sizes": "192x192"
+    },
+    {
+      "src": "Imagens/restaurantesaborcariocamg_519152984_17896140108254838_8899478099880964795_n.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#7C0B07",
+  "display": "standalone",
+  "theme-color": "#7C0B07",
+  "orientation": "portrait"
+}
